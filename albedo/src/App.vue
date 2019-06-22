@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <LandingPage />
+    <Carousel />
   </div>
 </template>
 
 <script>
 import LandingPage from './components/LandingPage'
+import Carousel from './components/Carousel'
 
 export default {
   name: 'app',
   components: {
-    LandingPage
+    LandingPage,
+    Carousel
   }
 }
 </script>
