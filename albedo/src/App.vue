@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <LandingPage />
+    <Advertisements />
   </div>
 </template>
 
 <script>
 import LandingPage from './components/LandingPage'
+import Advertisements from './components/Advertisements'
 
 export default {
   name: 'app',
   components: {
-    LandingPage
+    LandingPage,
+    Advertisements
   }
 }
 </script>
