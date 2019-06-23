@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <LandingPage />
+    <Navbar />
     <Advertisements />
+    <Blogs />
   </div>
 </template>
 
 <script>
-import LandingPage from './components/LandingPage'
+import Navbar from './components/Navbar'
 import Advertisements from './components/Advertisements'
+import Blogs from './components/Blogs'
 
 export default {
   name: 'app',
   components: {
-    LandingPage,
-    Advertisements
+    Navbar,
+    Advertisements,
+    Blogs
   }
 }
 </script>
