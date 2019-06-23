@@ -3,6 +3,7 @@
     <Navbar />
     <Advertisements />
     <Blogs />
+    <Footer />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Navbar from './components/Navbar'
 import Advertisements from './components/Advertisements'
 import Blogs from './components/Blogs'
+import Footer from './components/Footer'
 
 export default {
   name: 'app',
   components: {
     Navbar,
     Advertisements,
-    Blogs
+    Blogs,
+    Footer
   }
 }
 </script>
