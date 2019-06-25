@@ -4,6 +4,7 @@
     <Advertisements />
     <Blogs />
     <Footer />
+    <ContactUs />
   </div>
 </template>
 
@@ -12,6 +13,8 @@ import Navbar from './components/Navbar'
 import Advertisements from './components/Advertisements'
 import Blogs from './components/Blogs'
 import Footer from './components/Footer'
+import ContactUs from './components/ContactUs'
+
 
 export default {
   name: 'app',
@@ -19,7 +22,8 @@ export default {
     Navbar,
     Advertisements,
     Blogs,
-    Footer
+    Footer,
+    ContactUs
   }
 }
 </script>
