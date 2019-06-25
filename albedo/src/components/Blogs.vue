@@ -2,12 +2,12 @@
     <div class="container" style="padding:30px 100px 25px;">
         <b-container class="bv-example-row">
         <b-row>
-            <b-col class="border-right"><strong style="font-size:20px; font-weight:bold;">Blogs</strong>
+            <b-col class="border-right"><strong style="font-size:20px; font-weight:bold; color:#141313;">Blogs</strong>
             <div style="padding: 40px 14px 0px 0px;">
                 <b-card no-body class="overflow-hidden" >
                     <b-row no-gutters>
                     <b-col md="4">
-                        <b-card-img :src="require('../static/images/blogging-blur-communication-261662.jpg')" style="padding:25px 20px 0px 20px; width:150px;"></b-card-img>
+                        <b-card-img :src="require('../assets/images/blogging-blur-communication-261662.jpg')" style="padding:25px 20px 0px 20px; width:150px;"></b-card-img>
                     </b-col>
                     <b-col md="8">
                         <b-card-body>
@@ -22,7 +22,7 @@
             <b-card no-body class="overflow-hidden">
                 <b-row no-gutters>
                 <b-col md="4">
-                    <b-card-img :src="require('../static/images/blogging-blur-communication-261662.jpg')" style="padding:25px 20px 0px 20px; width:150px;"></b-card-img>
+                    <b-card-img :src="require('../assets/images/blogging-blur-communication-261662.jpg')" style="padding:25px 20px 0px 20px; width:150px;"></b-card-img>
                 </b-col>
                 <b-col md="8">
                     <b-card-body>
@@ -37,7 +37,7 @@
             <b-card no-body class="overflow-hidden">
                 <b-row no-gutters>
                 <b-col md="4">
-                    <b-card-img :src="require('../static/images/blog-businesswoman-create-267569.jpg')" style="padding:25px 20px 0px 20px; width:150px;"></b-card-img>
+                    <b-card-img :src="require('../assets/images/blog-businesswoman-create-267569.jpg')" style="padding:25px 20px 0px 20px; width:150px;"></b-card-img>
                 </b-col>
                 <b-col md="8">
                     <b-card-body>
@@ -50,10 +50,10 @@
                 </b-row>
             </b-card>
             </div><br>
-            <b-button style="background-color:#e34a00; border-color:#e34a00; width:150px;">View More</b-button>
+            <b-button style="background-color:#e16119; border-color:#e16119; width:150px;">View More</b-button>
             </b-col>
 
-            <b-col><strong style="font-size:20px; font-weight:bold;">Questions & Answers</strong>
+            <b-col><strong style="font-size:20px; font-weight:bold; color:#141313;">Questions & Answers</strong>
                 <div style="padding: 40px 0px 0px 14px;">
                     
                     <b-row>    
@@ -61,14 +61,14 @@
                         <b-form-input v-model="text" placeholder="Type your question here..."></b-form-input>
                         </b-col>
                         <b-col sm="4">
-                        <b-button style="background-color:#e34a00; border-color:#e34a00;">Ask Question</b-button>
+                        <b-button style="background-color:#e16119; border-color:#e16119;">Ask Question</b-button>
                         </b-col>
                     </b-row><br><br>
                     
                     <b-card no-body class="overflow-hidden" style="height:150px;">
                     <b-row no-gutters>
                     <b-col md="2">
-                        <b-card-img :src="require('../static/icons/question.svg')" style="padding:50px 10px; width:80px;"></b-card-img>
+                        <b-card-img :src="require('../assets/icons/question.svg')" style="padding:50px 10px; width:80px;"></b-card-img>
                     </b-col>
                     <b-col md="10">
                         <b-card-body style="text-align:left;">
@@ -84,7 +84,7 @@
                 <b-card no-body class="overflow-hidden" style="height:150px;">
                     <b-row no-gutters>
                     <b-col md="2">
-                        <b-card-img :src="require('../static/icons/question.svg')" style="padding:50px 10px; width:80px;"></b-card-img>
+                        <b-card-img :src="require('../assets/icons/question.svg')" style="padding:50px 10px; width:80px;"></b-card-img>
                     </b-col>
                     <b-col md="10">
                         <b-card-body style="text-align:left;">
